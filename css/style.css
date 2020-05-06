@@ -1,0 +1,140 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  color: rgb(34,34,34);
+  font-family: arial;
+  font-weight: 25rem; /* 400 / 16 */
+  line-height: 1.5rem;
+  background-color: rgb(46,137,122);
+  margin: 0 auto;
+}
+
+ body > div {
+  width: 50rem; /* 800 / 16 */
+  margin: 0 auto;
+  color: rgb(228, 78, 94);
+}
+
+main {
+  display:grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 10px;
+}
+
+main > div {
+  padding-left: 6em;
+  padding-right: 6em;
+  text-align: center;
+}
+
+header p{
+  background-color:rgb(228, 78, 94);
+  color: rgb(255,255,255);.
+  margin: 0;
+  text-align: center;
+  display: grid;
+  grid-column: 1/4;
+  grid-row-gap: 1rem;
+  padding-top: .31rem; /* 5 / 16 */
+  padding-bottom: .31rem; /* 5 / 16 */
+}
+
+body header {
+  display: grid;
+  grid-column: 1/4;
+  margin: 0;
+  padding-top: 0; /* 20 / 16 */
+  padding-bottom: 1.23rem; /* 20 / 16 */
+}
+
+header,
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 315 / 16 */
+  background-color: rgb(255,253,240);
+}
+
+img {
+  min-width: 50rem;
+}
+
+/* section p{
+  font-size: small;
+  line-height: .75rem;
+} */
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 315 / 16 */
+  background-color: rgb(255,253,240);
+  color: rgb(0,0,0);
+  font-size: small;
+  line-height: .75rem;
+}
+
+#lotteryNumbers{
+  font-size:1rem;
+  font-family: arial;
+  color: rgb(228, 78, 94);
+}
+
+#lotteryButton{
+font-size:1rem;
+font-family: arial;
+width:90;
+height: 55px;
+background-color: rgb(228, 78, 94);
+border-color: rgb(255,255,255);
+color: rgb(255,255,255);
+grid-column: 1/2;
+}
+
+#powerballNumbers{
+  font-size:1rem;
+  font-family: arial;
+  color: rgb(228, 78, 94);
+  grid-row-gap: 1em;
+}
+
+#powerballButton{
+font-size:1rem;
+font-family: arial;
+width:90;
+height: 55px;
+background-color: rgb(228, 78, 94);
+border-color: rgb(255,255,255);
+color: rgb(255,255,255);
+grid-column: 2/2;
+
+}
+
+#luckyLottoNumbersOk{
+  font-size:1rem;
+  font-family: arial;
+  color: rgb(228, 78, 94);
+  grid-row-gap: 1em;
+}
+
+#luckyLottoButton{
+  font-size:1rem;
+  font-family: arial;
+  width:90;
+  height: 45px;
+  background-color: rgb(228, 78, 94);
+  border-color: rgb(255,255,255);
+  color: rgb(255,255,255);
+}
+
+#luckyPowerballButton{
+  font-size:1rem;
+  font-family: arial;
+  width:90;
+  height: 45px;
+  background-color: rgb(228, 78, 94);
+  border-color: rgb(255,255,255);
+  color: rgb(255,255,255);
+
+
+}

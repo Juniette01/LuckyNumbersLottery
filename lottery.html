@@ -1,0 +1,71 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>Lucky Numbers Lottery</title>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+      <div>
+        <header>
+          <picture>
+                <img src="img/luckynumbers-md.jpg" alt="Lucky Numbers">
+              </picture>
+
+          <p>Generate your lucky numbers for a chance to win the Florida Lottery or Powerball!</p>
+        </header>
+
+              <script src="js/lottery.js"></script>
+
+    <main>
+      <div>
+        <p id="lotteryNumbers"></p>
+        <button id="lotteryButton" onclick="randomLotteryNumbers();"> My Lottery Numbers </button>
+        </div>
+
+        <div>
+                <p id="powerballNumbers"></p>
+                <button id="powerballButton" onclick="randomPowerballNumbers();"> My Powerball Numbers </button>
+          </div>
+
+          <div>
+            <p id="playLottery">Ready to play the Lottery? Enter your lucky numbers below to see if you won!</p>
+
+          </div>
+
+          <div>
+            <p id="playLottery">Ready to play Powerball? Enter your lucky numbers below to see if you won!</p>
+          </div>
+
+          <div>
+          <p id="luckyLottoNumbersOk"></p>
+          <form method="get" class="form">
+                  <label>Your numbers: </label>
+                  <input type="number" id="luckyLottoNumbers" />
+                  <input type="button" id="luckyLottoButton" onclick="winningLotteryNumbers()" value="Did I win?"/>
+
+                </form>
+        </div>
+
+        <div>
+        <p id="luckyPowerballNumbersOk"></p>
+        <form method="get" class="form">
+                <label>Your numbers: </label>
+                <input type="number" id="luckyPowerballNumbers" />
+                <input type="button" id="luckyPowerballButton" onclick="winningPowerballNumbers()" value="Did I win?"/>
+
+              </form>
+      </div>
+
+        </main>
+        <footer>
+        <div>
+          <section>
+            <p>Photo credit: <a href="https://www.freepik.com/free-vector/abstract-background-bingo-balls_1147336.htm#page=2&query=lottery&position=24">Freepik</a></p>
+
+          </section>
+</footer>
+        </div>
+      </div>
+    </body>
+  </html>
